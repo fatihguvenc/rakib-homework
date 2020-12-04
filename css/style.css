@@ -219,3 +219,36 @@ textarea{
         width: auto;
     }
 }
+/* question end */
+/* about us start */
+.box-about-us{
+    width: 160px;
+    height: 80px;
+}
+.icon-about-us{
+    transform: rotate(90deg);
+    font-size: 28px;
+    bottom: -14px;
+    left: 68px;
+
+}
+.big-text{
+    display: block;
+    text-align: center;
+    font-family: 'pangram-b';
+    font-size: 24px;
+    margin-top: 5px;
+}
+.small-text{
+    display: block;
+    text-align: center;
+    font-family: 'pangram-m';
+    font-size: 14px;
+}
+/* about us end */
+/* our mission start */
+.lorem-about-us{
+    color: gray;
+    font-family: 'pengram-m';
+    font-size: 16px;
+}
