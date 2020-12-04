@@ -1,0 +1,221 @@
+@font-face{
+    font-family: 'pangram-m';
+    src: url(/font/Pangram-Medium.woff);
+}
+@font-face{
+    font-family: 'pangram-b';
+    src: url(/font/Pangram-Bold.woff);
+}
+body{
+    font-family: 'pangram-m';
+}
+/* Navbar Start */
+.nav-link{
+    font-size: 18px;
+    /* font-weight: 500; */
+    font-family: 'pangram-m';
+    color: #000000;
+    margin-right: 20px;
+}
+.nav-link:last-child{
+    margin-right: 0;
+}
+.nav-link:hover{
+    color: #FEAF1F;
+}
+
+/* Section 1 Start */
+.section-1{
+    margin-top: 120px;
+}
+.text{
+    font-size: 56px;
+    /* font-weight: 700; */
+    font-family: 'pangram-b';
+    color: #000000;
+}
+.disc{
+    font-size: 16px;
+    line-height: 26px;
+}
+.creative{
+    color: #FEAF1F;
+}
+.business{
+    color: #FA4B1C;
+}
+.get-started{
+    background-color: #FD4B1B;
+    /* font-weight: 500; */
+    font-family: 'pangram-b';
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 35px;
+}
+.play-video{
+    color: #FD4B1B;
+    font-family: 'pangram-b';
+
+}
+.play-video:hover{
+    text-decoration: none;
+    color: #FD4B1B;
+}
+.icon-color{
+    color: #0D5CDA;
+    margin-right: 10px;
+}
+/* Section 1 End */
+.text-center{
+    margin-top: 120px;
+}
+.text-feature{
+    color: #FD4B1B;
+    font-size: 28px;
+}
+.text-special{
+    color: #000000;
+    font-family: 'pangram-b';
+    font-size: 56px;
+}
+
+/* Services Area Start */
+.services-area{
+    margin-top: 120px;
+}
+.services-box{
+}
+.icon-uı-ux, .icon-digital-marketing, .icon-graphic-design{
+    font-family: 'pangram-b';
+    font-size: 24px;
+    margin-top: 20px;
+
+}
+.icon-graphic-design{
+    color: #FDAF21;
+}
+.p-services{
+    font-family: 'pangram-m';
+    margin-top: 10px;
+    color: gray;
+    padding: 0 50px;
+}
+/* Service area end */
+/* section 2 start */
+.margin-class{
+    margin-top: 120px;
+}
+.text-about-us{
+    font-family: 'pangram-b';
+    font-size: 56px;
+}
+.agency{
+    color: #0C5BDB;
+}
+.section-2 {
+    margin-top: 100px;
+}
+.box-1{
+    padding-top: 25px;
+}
+.box{
+    width: 20px;
+    height: 28px;
+    border: 1px solid #FD4B1B;
+}
+.absolute-icon i {
+    right: -7px;
+    top: 6px;
+}
+.lorem{
+    padding: 0;
+    margin: 0;
+    padding: 0 40px;
+    font-family: 'pangram-m';
+    font-size: 18px;
+    color: gray;
+}
+/* section 2 end */
+/* section 3 start */
+.support{
+    color: #FD4B1B;
+    font-size: 24px;
+    font-family: 'pangram-b';
+    margin-top: 24px;
+}
+.no-extra{
+    color: #0D5BD8;
+    font-size: 24px;
+    font-family: 'pangram-b';
+}
+.standard{
+    color: #FCAF21;
+    font-size: 24px;
+    font-family: 'pangram-b';
+}
+.biz{
+    color: #FD4B1B;
+}
+/* section 3 end */
+/* section 4 start */
+.first-way{
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 75%);
+}
+.second-way{
+    clip-path: polygon(0 1%, 100% 0, 100% 75%, 0 100%);
+}
+.icon-team{
+    padding: 4px;
+    border: 1px solid #0D5BD9;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #0D5BD9;
+}
+.right-way{
+    bottom: 5px;
+    right: 0;
+}
+.left-way{
+    bottom: 5px;
+    left: 0;
+}
+.card-name{
+    font-family: 'pangram-b';
+    font-size: 18px;
+}
+.span-class{
+    font-size: 14px;
+    font-family: 'pangram-m';
+    color: gray;
+}
+/* section 4 end */
+/* question start */
+textarea{
+    
+}
+.form-hire-us{
+    outline: 0;
+    margin-top: 18px;
+}
+.form-disc{
+    font-family: 'pangram-b';
+}
+.footer-area{
+    padding: 160px 50px 40px 50px;
+    background-color: #FD4B1B;
+    border-top-left-radius: 348px;
+    border-top-right-radius: 348px;
+    width: 796px;
+}
+.contact-us{
+    color: #fff;
+    font-family: 'pangram-b';
+    font-size: 18px;
+}
+@media (max-width: 798px){
+    .footer-area{
+        width: auto;
+    }
+}
